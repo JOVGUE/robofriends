@@ -1,13 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import React from 'react';//The core React view library
+import ReactDOM from 'react-dom/client';//The view canvas, like ReactNative for Mobile Phones
+import './index.css';//impors CSS specific to the index.js component
 import reportWebVitals from './reportWebVitals';
+import App from './Containers/App';
+import 'tachyons';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>
 );
 
